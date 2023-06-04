@@ -19,7 +19,7 @@ int main()
   for(int i=0;i<n;i++){
     getline(cin,ar[i].name);
     cin>>ar[i].mark>>ar[i].bach;
-    cin.ignore();
+    cin.ignore(); 
   }
   sort(ar,ar+n,cmp);
 
